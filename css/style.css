@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(100, 100, 100, 0.2);
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.3;
+	font-family: Lato;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+img {
+	border: 3px solid black;
+	box-shadow: 2px 2px 5px #000;
+}
+
+p {
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+.quote {
+	font-style: italic;
+}
+
+.add-info {
+	border: 1px solid rgb(88, 88, 88);
+	box-shadow: 3px 3px 5px rgba(44, 73, 14, 0.325);
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+	margin-top: 15px;
+	text-align: center;
+	background-color: rgba(128, 255, 0, 0.325);
+	height: 58px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.add-info a {
+	top: 50%;
+}
+
+.main-content__image {
+	text-align: center;
+	font-size: 12px;
+}
+
+.date {
+	font-size: 12px;
+	padding-top: 0;
+}
+
+header>img{
+	margin-left: 200px;
+}
